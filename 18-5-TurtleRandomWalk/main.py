@@ -12,10 +12,10 @@ t.hideturtle()
 def random_palette(number_of_colors):
     palette = []
     for _ in range(number_of_colors):
-        r = random.randint(1, 255)
-        g = random.randint(1, 255)
-        b = random.randint(1, 255)
-        color = [r, g, b]
+        r = random.randint(0, 255)
+        g = random.randint(0, 255)
+        b = random.randint(0, 255)
+        color = (r, g, b)
         palette.append(color)
     return palette
 
@@ -23,8 +23,7 @@ def random_palette(number_of_colors):
 def cycle_color():
     global d
     c = int(d % len(palette))
-    tup = (int(palette[c][0]), int(palette[c][1]), int(palette[c][2]))
-    t.color(tup)
+    t.color(palette[c])
     d += 1
 
 

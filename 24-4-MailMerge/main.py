@@ -7,7 +7,6 @@ NAMES = './Input/Names/invited_names.txt'
 LETTER = './Input/Letters/starting_letter.txt'
 OUTPUT = './Output/ReadyToSend/'
 PLACEHOLDER = '[name]'
-TEXT = "Apples, Bananas"
 
 
 def get_names(filename):

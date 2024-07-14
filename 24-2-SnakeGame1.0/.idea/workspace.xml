@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="393c9322-2c79-4c73-9e44-ab0807698357" name="Changes" comment="updates">
-      <change beforePath="$PROJECT_DIR$/../21-1-SnakeGame0.9/.idea/20-1-SnakeGame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../21-1-SnakeGame0.9/.idea/20-1-SnakeGame.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../21-1-SnakeGame0.9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21-1-SnakeGame0.9/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../21-1-SnakeGame0.9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21-1-SnakeGame0.9/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/20-1-SnakeGame.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/food.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/scoreboard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-0-SnakeGame1.0/snake.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-1-ReadWriteFiles/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../24-1-ReadWriteFiles/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24-1-ReadWriteFiles/text_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../24-1-ReadWriteFiles/text_file.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.main.py.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/Seven/Coding/Py100/24-1-SnakeGame1.0",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Seven/Coding/Py100/24-1-SnakeGame1.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main.py" type="PythonConfigurationType" factoryName="Python">
       <module name="20-1-SnakeGame" />
@@ -57,7 +68,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (24-1-SnakeGame1.0)" />
+      <option name="SDK_NAME" value="Python 3.12 (24-2-SnakeGame1.0) (2)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />

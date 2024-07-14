@@ -26,8 +26,8 @@ def fill_name(salutation, invitee_name):
 def write_letter(invitee_name):
     letter_table = get_letter(LETTER)
     first_line = letter_table[0]
-    letter_table[0] = fill_name(first_line, name.strip())
-    with open(f'{OUTPUT}letter_for_{name}.txt', mode='w') as destination_letter:
+    letter_table[0] = fill_name(first_line, invitee_name.strip())
+    with open(f'{OUTPUT}letter_for_{invitee_name}.txt', mode='w') as destination_letter:
         for line in letter_table:
             destination_letter.write(line)
 

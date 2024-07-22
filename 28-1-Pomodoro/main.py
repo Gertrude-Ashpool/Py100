@@ -90,5 +90,4 @@ check_marks.config(fg=GREEN, bg=YELLOW)
 check_marks.grid(column=1, row=3)
 
 
-
 window.mainloop()

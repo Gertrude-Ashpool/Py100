@@ -1,0 +1,122 @@
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+05-5-PasswordGenerator/.idea/05-5-PasswordGenerator.iml
+05-5-PasswordGenerator/.idea/misc.xml
+05-5-PasswordGenerator/.idea/modules.xml
+05-5-PasswordGenerator/.idea/vcs.xml
+05-5-PasswordGenerator/.idea/inspectionProfiles/profiles_settings.xml
+05-5-PasswordGenerator/.idea/inspectionProfiles/Project_Default.xml
+31-1-FlashCards/.idea/misc.xml
+31-1-FlashCards/data/words_to_learn.csv
+32-1-BirthdayWisher/.idea/.gitignore
+32-1-BirthdayWisher/.idea/32-1-BirthdayWisher.iml
+32-1-BirthdayWisher/.idea/misc.xml
+32-1-BirthdayWisher/.idea/modules.xml
+32-1-BirthdayWisher/.idea/vcs.xml
+32-1-BirthdayWisher/.idea/inspectionProfiles/profiles_settings.xml
+32-1-BirthdayWisher/.idea/inspectionProfiles/Project_Default.xml
+32-2-MondayMotivation/.idea/.gitignore
+32-2-MondayMotivation/.idea/32-2-MondayMotivation.iml
+32-2-MondayMotivation/.idea/misc.xml
+32-2-MondayMotivation/.idea/modules.xml
+32-2-MondayMotivation/.idea/vcs.xml
+32-2-MondayMotivation/.idea/inspectionProfiles/profiles_settings.xml
+32-2-MondayMotivation/.idea/inspectionProfiles/Project_Default.xml
+33-0-APICalls/.idea/.gitignore
+33-0-APICalls/.idea/33-0-APICalls.iml
+33-0-APICalls/.idea/misc.xml
+33-0-APICalls/.idea/modules.xml
+33-0-APICalls/.idea/vcs.xml
+33-0-APICalls/.idea/inspectionProfiles/profiles_settings.xml
+33-0-APICalls/.idea/inspectionProfiles/Project_Default.xml
+33-1-KanyeQuotes/.idea/.gitignore
+33-1-KanyeQuotes/.idea/33-1-KanyeQuotes.iml
+33-1-KanyeQuotes/.idea/misc.xml
+33-1-KanyeQuotes/.idea/modules.xml
+33-1-KanyeQuotes/.idea/vcs.xml
+33-1-KanyeQuotes/.idea/inspectionProfiles/profiles_settings.xml
+33-1-KanyeQuotes/.idea/inspectionProfiles/Project_Default.xml
+33-2-ISSOverhead/.idea/.gitignore
+33-2-ISSOverhead/.idea/33-2-ISSOverhead.iml
+33-2-ISSOverhead/.idea/misc.xml
+33-2-ISSOverhead/.idea/modules.xml
+33-2-ISSOverhead/.idea/vcs.xml
+33-2-ISSOverhead/.idea/inspectionProfiles/profiles_settings.xml
+33-2-ISSOverhead/.idea/inspectionProfiles/Project_Default.xml
+31-1-FlashCards/.idea/misc.xml
+31-1-FlashCards/.idea/misc.xml

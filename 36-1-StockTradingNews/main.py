@@ -107,12 +107,12 @@ news_articles = news_brief()
 
 if -DELTA_MAX < delta > DELTA_MAX:
     stock_brief_message = ""
-    stock_brief_message += "{STOCK} {up_or_down(delta)}{delta}%\n"
+    stock_brief_message += f"{STOCK} {up_or_down(delta)}{delta}%\n"
     stock_brief_message += "News Brief\n"
     for article in news_articles:
         for key in article:
-            stock_brief_message += "{key}: "
-            stock_brief_message += "{article[key]}: \n"
+            stock_brief_message += f"{key}: "
+            stock_brief_message += f"{article[key]}: \n"
 
     send_sms(stock_brief_message)
 

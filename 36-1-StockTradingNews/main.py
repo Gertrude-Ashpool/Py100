@@ -50,9 +50,9 @@ def stock_movement():
 
 def up_or_down(delta):
     if delta >= 0:
-        return "up 🔺"
+        return "up 🔼"
     if delta < 0:
-        return "down 🔻"
+        return "down 🔽"
 
 
 ## STEP 2: Use https://newsapi.org
@@ -75,16 +75,13 @@ def news_brief():
     news_response.raise_for_status()
     news_data = news_response.json()
 
-    # print(news_data)
-
-    news_brief = []
+    news_brief = {}
 
     for article in news_data['articles']:
-        news_brief.append({"Headline": article['title']})
-        news_brief.append({"Brief": article['description']})
+        news_brief.update({article['title']: article['description']})
     return news_brief
 
-## STEP 3: Use https://www.twilio.com
+# STEP 3: Use https://www.twilio.com
 # Send a separate message with the percentage change and each article's title and description to your phone number.
 
 
@@ -102,20 +99,16 @@ def send_sms(message_body):
     print(message.status)
 
 
+# get stock movement from alpha vantage
 delta = stock_movement()
-news_articles = news_brief()
 
-if -DELTA_MAX < delta > DELTA_MAX:
-    stock_brief_message = ""
-    stock_brief_message += f"{STOCK} {up_or_down(delta)}{delta}%\n"
-    stock_brief_message += "News Brief\n"
-    for article in news_articles:
-        for key in article:
-            stock_brief_message += f"{key}: "
-            stock_brief_message += f"{article[key]}: \n"
+# set delta constant for testing
+# delta = 4.25
 
-    send_sms(stock_brief_message)
-
+if abs(delta) > DELTA_MAX:
+    news_articles = news_brief()
+    for headline, brief in news_articles.items():
+        send_sms(f"{STOCK}: {up_or_down(delta)}{delta}%\nHeadline: {headline}\nBrief: {brief}")
 
 #Optional: Format the SMS message like this: 
 """
